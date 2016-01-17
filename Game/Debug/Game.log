@@ -1,0 +1,43 @@
+﻿Build started 17.01.2016 21:44:13.
+     1>Project "C:\Users\Admin\Downloads\Game\Game\Game.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\SFML\include /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /Od /Oy- /D SFML_DYNAMIC /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt world_init.cpp
+         world_init.cpp
+     1>c:\users\admin\downloads\game\game\level.h(63): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\admin\downloads\game\game\level.h(147): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\admin\downloads\game\game\level.h(148): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\admin\downloads\game\game\level.h(188): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\admin\downloads\game\game\level.h(245): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\admin\downloads\game\game\level.h(266): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\admin\downloads\game\game\level.h(267): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\admin\downloads\game\game\level.h(268): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\admin\downloads\game\game\level.h(269): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\admin\downloads\game\game\level.h(312): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\admin\downloads\game\game\level.h(321): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\admin\downloads\game\game\level.h(343): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\admin\downloads\game\game\level.h(344): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\admin\downloads\game\game\world_init.cpp(13): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\admin\downloads\game\game\level.h(315): warning C4715: 'Level::GetObject': not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Admin\Downloads\Game\Debug\Game.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\SFML\lib "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-audio-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Admin\Downloads\Game\Debug\Game.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Admin\Downloads\Game\Debug\Game.lib" /MACHINE:X86 Debug\app.obj
+         Debug\enemy_collisions.obj
+         Debug\enemy_init.obj
+         Debug\enemy_update.obj
+         Debug\entity.obj
+         Debug\main.obj
+         Debug\player_collisions.obj
+         Debug\player_init.obj
+         Debug\player_move.obj
+         Debug\player_update.obj
+         Debug\tinystr.obj
+         Debug\tinyxml.obj
+         Debug\tinyxmlerror.obj
+         Debug\tinyxmlparser.obj
+         Debug\world.obj
+         Debug\world_init.obj
+         Game.vcxproj -> C:\Users\Admin\Downloads\Game\Debug\Game.exe
+     1>Done Building Project "C:\Users\Admin\Downloads\Game\Game\Game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.00
