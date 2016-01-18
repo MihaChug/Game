@@ -9,7 +9,6 @@ Entity::Entity(Image &image, String Name, float X, float Y, int W, int H)
 	name = Name;
 	moveTimer = 0;
 	speed = 0;
-	lives = 3;
 	dx = 0;
 	dy = 0;
 	life = true;

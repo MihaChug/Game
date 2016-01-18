@@ -19,6 +19,7 @@ struct Entity {
 	Texture texture;
 	Sprite sprite;
 	String name, type;
+	Vector2i offset;
 
 	Entity(Image &image, String Name, float X, float Y, int W, int H);
 

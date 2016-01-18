@@ -18,7 +18,7 @@ void Player::control()
 		if ((Keyboard::isKeyPressed(Keyboard::W)) && (onGround))
 		{
 			state = jump;
-			dy = -0.5;
+			dy = -0.45;
 			onGround = false;
 			jump_sound.play();
 		}

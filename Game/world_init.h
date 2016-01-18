@@ -8,7 +8,8 @@ public:
 	Music backgroundMusic;
 	Level lvl;
 	Image heroImage;
-	Image enemyImage;
+	Image EasyEnemyImage;
+	Image NormalEnemyImage;
 	Object playerObj;
 	list<Entity*>  entities;
 	vector<Object> enemies;

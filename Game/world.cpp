@@ -13,8 +13,8 @@ void setPlayerCoordinateForView(View &view, float x, float y) {
 	float tempY = y;
 	if (x < 175)
 		tempX = 175;
-	if (x > 1505)
-		tempX = 1505;
+	if (x > 3710)
+		tempX = 3710;
 	if (y < 150)
 		tempY = 150;
 	if (y > 200)
@@ -28,21 +28,7 @@ void World::UpdateWorld(float time, RenderWindow &window)
 	setPlayerCoordinateForView(view, player->sprite.getPosition().x, player->sprite.getPosition().y);
 	for (it = entities.begin(); it != entities.end(); it++)
 	{
-		if ((*it)->getRect().intersects(player->getRect()))
-		{
-			if ((*it)->name == "enemy")
-			{
-				if ((player->dy>0) && (player->onGround == false))
-				{
-					(*it)->dx = 0;
-					player->dy = -0.2; //TODO: magic -> const;
-					(*it)->lives = 0;
-				}
-				else {
-					player->lives = 0;
-				}
-			}
-		}
+		(*it)->update(time);
 	}
 	window.setView(view);
 }
@@ -66,7 +52,7 @@ void World::LogicObjects()
 	{
 		if ((*it)->getRect().intersects(player->getRect()))
 		{
-			if ((*it)->name == "enemy")
+			if ((*it)->name == "enemy" && (*it)->lives > 0)
 			{
 				if ((player->dy>0) && (player->onGround == false))
 				{
@@ -75,17 +61,13 @@ void World::LogicObjects()
 					(*it)->lives = 0;
 				}
 				else {
-					player->lives = 0;
+					player->lives -= 1;
 				}
 			}
-		}
-		for (it2 = entities.begin(); it2 != entities.end(); it2++) {
-			if ((*it)->getRect() != (*it2)->getRect())
-				if (((*it)->getRect().intersects((*it2)->getRect())) && ((*it)->name == "Enemy") && ((*it2)->name == "Enemy"))
-				{
-					(*it)->dx *= -1;
-					(*it)->sprite.scale(-1, 1);
-				}
+			if ((*it)->name == "enemy" && (*it)->type == "water")
+			{
+				player->lives = 0;
+			}
 		}
 	}
 }

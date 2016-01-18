@@ -7,6 +7,7 @@ struct Player: public Entity
 	Player(Image &image, String Name, Level &level, float X, float Y, int W, int H);
 	int playerScore;
 	int boost;
+	int current_frame;
 	SoundBuffer jump_sound_buffer;
 	Sound jump_sound;
 	void control();
