@@ -1,4 +1,19 @@
-﻿  world.cpp
+﻿  world_init.cpp
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(63): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(147): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(148): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(188): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(245): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(266): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(267): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(268): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(269): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(312): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(321): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(343): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(344): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\world_init.cpp(13): warning C4018: <: несоответствие типов со знаком и без знака
+  world.cpp
 c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(63): warning C4244: return: преобразование "double" в "float", возможна потеря данных
 c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(147): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
 c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(148): warning C4244: =: преобразование "float" в "int", возможна потеря данных
@@ -13,6 +28,103 @@ c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(321): w
 c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(343): warning C4018: <: несоответствие типов со знаком и без знака
 c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(344): warning C4018: <: несоответствие типов со знаком и без знака
 c:\users\michael\documents\visual studio 2015\projects\game\game\world.cpp(60): warning C4305: =: усечение из "double" к "float"
+  tinyxmlparser.cpp
+  tinyxmlerror.cpp
+  tinyxml.cpp
+  tinystr.cpp
+  player_update.cpp
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(63): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(147): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(148): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(188): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(245): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(266): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(267): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(268): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(269): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(312): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(321): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(343): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(344): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\player_update.cpp(5): warning C4244: +=: преобразование "float" в "int", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\player_update.cpp(62): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  player_move.cpp
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(63): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(147): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(148): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(188): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(245): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(266): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(267): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(268): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(269): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(312): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(321): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(343): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(344): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\player_move.cpp(5): warning C4551: в вызове функции отсутствует список аргументов
+c:\users\michael\documents\visual studio 2015\projects\game\game\player_move.cpp(10): warning C4305: =: усечение из "double" к "float"
+c:\users\michael\documents\visual studio 2015\projects\game\game\player_move.cpp(15): warning C4305: =: усечение из "double" к "float"
+c:\users\michael\documents\visual studio 2015\projects\game\game\player_move.cpp(21): warning C4305: =: усечение из "double" к "float"
+  player_init.cpp
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(63): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(147): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(148): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(188): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(245): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(266): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(267): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(268): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(269): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(312): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(321): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(343): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(344): warning C4018: <: несоответствие типов со знаком и без знака
+  player_collisions.cpp
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(63): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(147): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(148): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(188): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(245): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(266): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(267): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(268): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(269): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(312): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(321): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(343): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(344): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\player_collisions.cpp(5): warning C4018: <: несоответствие типов со знаком и без знака
+  main.cpp
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(63): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(147): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(148): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(188): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(245): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(266): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(267): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(268): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(269): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(312): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(321): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(343): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(344): warning C4018: <: несоответствие типов со знаком и без знака
+  entity.cpp
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(63): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(147): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(148): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(188): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(245): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(266): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(267): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(268): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(269): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(312): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(321): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(343): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(344): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\entity.cpp(19): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\entity.cpp(26): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
   enemy_update.cpp
 c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(63): warning C4244: return: преобразование "double" в "float", возможна потеря данных
 c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(147): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
@@ -27,6 +139,52 @@ c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(312): w
 c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(321): warning C4018: <: несоответствие типов со знаком и без знака
 c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(343): warning C4018: <: несоответствие типов со знаком и без знака
 c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(344): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\michael\documents\visual studio 2015\projects\game\game\enemy_update.cpp(24): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\enemy_update.cpp(23): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  enemy_init.cpp
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(63): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(147): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(148): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(188): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(245): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(266): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(267): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(268): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(269): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(312): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(321): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(343): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(344): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\enemy_init.cpp(7): warning C4305: =: усечение из "double" к "float"
+  enemy_collisions.cpp
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(63): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(147): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(148): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(188): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(245): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(266): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(267): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(268): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(269): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(312): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(321): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(343): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(344): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\enemy_collisions.cpp(5): warning C4018: <: несоответствие типов со знаком и без знака
+  app.cpp
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(63): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(147): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(148): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(188): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(245): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(266): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(267): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(268): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(269): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(312): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(321): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(343): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(344): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\michael\documents\visual studio 2015\projects\game\game\app.cpp(46): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
   Создание кода...
+c:\users\michael\documents\visual studio 2015\projects\game\game\level.h(315): warning C4715: Level::GetObject: значение возвращается не при всех путях выполнения
   Game.vcxproj -> C:\Users\Michael\Documents\Visual Studio 2015\Projects\Game\Debug\Game.exe

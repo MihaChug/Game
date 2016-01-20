@@ -11,6 +11,8 @@ Player::Player(Image &image, String Name, Level &level, float X, float Y, int W,
 	jump_sound.setBuffer(jump_sound_buffer);
 	boost = 0;
 	offset = { 0, h };
+	scale = 1;
+	isMove = false;
 	if (name == "P1")
 	{
 		sprite.setTextureRect(IntRect(0, 0, w, h));
