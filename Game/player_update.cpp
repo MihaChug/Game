@@ -1,14 +1,15 @@
 #include "player.h"
 
-void Player::animation(float &time) {
+void Player::animation(float &time) 
+{
 	offset.y = 16;
 	current_frame += time;
-	if (current_frame > 90)
+	if (current_frame > 48)
 	{
 		offset.x += 16;
 		current_frame = 0;
 	}
-	if (offset.x > 48)
+	if (offset.x >= 48)
 	{
 		offset.x = 0;
 	}
@@ -22,7 +23,7 @@ void Player::update(float time)
 		animation(time);
 	}
 	else {
-		sprite.setTextureRect(IntRect(0, 16, w, h));
+		sprite.setTextureRect(IntRect(0, 0, w, h));
 	}
 	switch (state)
 	{

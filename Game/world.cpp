@@ -54,17 +54,18 @@ void World::LogicObjects()
 		{
 			if ((*it)->name == "enemy" && (*it)->lives > 0)
 			{
-				if ((player->dy>0) && (player->onGround == false))
+				if (player->dy > 0 && player->onGround == false)
 				{
 					(*it)->dx = 0;
 					player->dy = -0.2;
 					(*it)->lives = 0;
 				}
-				else {
+				else
+				{
 					player->lives -= 1;
 				}
 			}
-			if ((*it)->name == "enemy" && (*it)->type == "water")
+			if ((*it)->name == "bonus" )
 			{
 				player->lives = 0;
 			}

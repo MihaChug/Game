@@ -5,6 +5,7 @@ Enemy::Enemy(Image &image, String Name, String Type, Level &lvl, float X, float 
 	obj = lvl.GetAllObjects();
 	lives = 1;
 	dx = 0.02;
+	offset = { 0, 0 };
 	if ((Name == "enemy") && (Type == "easy"))
 	{
 		sprite.setTextureRect(IntRect(0, 0, w, h));

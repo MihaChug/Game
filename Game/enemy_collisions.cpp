@@ -21,10 +21,12 @@ void Enemy::checkCollisionWithMap(float Dx, float Dy)
 				if (Dx > 0)
 				{
 					x = obj[i].rect.left - w;
+					dx *= -1;
 				}
 				if (Dx < 0)
 				{
 					x = obj[i].rect.left + obj[i].rect.width;
+					dx *= -1;
 				}
 			}
 		}

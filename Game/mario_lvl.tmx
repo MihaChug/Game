@@ -4904,7 +4904,7 @@
   <object id="46" name="block" x="2176.33" y="112.167" width="15.3333" height="15.6667"/>
   <object id="47" name="block" x="1888" y="175.833" width="15.3333" height="15.6667"/>
   <object id="48" name="block" x="1120" y="160.167" width="15.3333" height="15.6667"/>
-  <object id="49" name="block" x="320" y="112.167" width="15.3333" height="15.6667"/>
+  <object id="49" name="block" x="320.333" y="112.167" width="15.3333" height="15.6667"/>
   <object id="50" name="block" x="240.333" y="176.167" width="15.3333" height="15.6667"/>
   <object id="51" name="block" x="288" y="176" width="79.6667" height="15.6667"/>
   <object id="52" name="block" x="496.333" y="208" width="31.3333" height="32.3333"/>
@@ -4921,13 +4921,13 @@
   <object id="63" name="end" x="3783" y="191" width="32" height="49"/>
   <object id="64" name="flag" x="3382.5" y="96" width="15" height="15.5"/>
   <object id="66" name="end_flag" x="3398" y="95.6667" width="3" height="129"/>
-  <object id="67" name="bonus" type="boost" x="304.333" y="176.5" width="15.3333" height="16.5"/>
+  <object id="67" name="bonus" type="boost" x="304.333" y="176.5" width="15.3333" height="16.8333"/>
   <object id="71" name="bonus" type="boost" x="1120" y="160.417" width="15.3333" height="16.5"/>
   <object id="72" name="bonus" type="boost" x="1456.33" y="176.75" width="15.3333" height="16.5"/>
   <object id="73" name="bonus" type="boost" x="2176.33" y="112.417" width="15.3333" height="16.5"/>
-  <object id="74" name="bonus" type="coin" x="240.333" y="176.417" width="15.3333" height="16.5"/>
-  <object id="75" name="bonus" type="coin" x="320" y="112.083" width="15.3333" height="16.5"/>
-  <object id="76" name="bonus" type="coin" x="336.333" y="176.083" width="15.3333" height="16.5"/>
+  <object id="74" name="bonus" type="coin" x="240.333" y="176.417" width="15.0003" height="16.9163"/>
+  <object id="75" name="bonus" type="coin" x="320" y="112.083" width="15.3333" height="16.917"/>
+  <object id="76" name="bonus" type="coin" x="336.333" y="176.083" width="15.3333" height="17.2503"/>
   <object id="77" name="bonus" type="coin" x="1888.67" y="128.417" width="15.3333" height="16.5"/>
   <object id="78" name="bonus" type="coin" x="2016.67" y="176.417" width="15.3333" height="16.5"/>
   <object id="79" name="bonus" type="coin" x="2128.33" y="176.417" width="15.3333" height="16.5"/>
@@ -4947,9 +4947,9 @@
   <object id="95" name="enemy" type="easy" x="3007.75" y="224" width="15.5" height="15"/>
   <object id="96" name="enemy" type="easy" x="3024.25" y="224" width="15.5" height="15"/>
   <object id="97" name="win_flag" x="3792.5" y="112.5" width="15" height="14.5"/>
-  <object id="332" name="enemy" type="water" x="1232" y="304" width="63" height="16"/>
-  <object id="333" name="enemy" type="water" x="1680.5" y="302" width="63" height="16"/>
-  <object id="334" name="enemy" type="water" x="2639.5" y="303" width="63" height="16"/>
+  <object id="332" name="water" x="1185" y="341" width="166" height="16"/>
+  <object id="333" name="water" x="1542" y="341" width="313" height="16"/>
+  <object id="334" name="water" x="2549" y="338" width="291" height="16"/>
   <object id="335" name="block" x="3872" y="-1" width="15" height="276"/>
  </objectgroup>
 </map>

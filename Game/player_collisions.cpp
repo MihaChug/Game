@@ -27,5 +27,9 @@ void Player::checkCollisionWithMap(float Dx, float Dy)
 					x = obj[i].rect.left + obj[i].rect.width;
 				}
 			}
+			if (obj[i].name == "water")
+			{
+				lives = 0;
+			}
 		}
 }

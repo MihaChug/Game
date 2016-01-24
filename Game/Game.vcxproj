@@ -20,6 +20,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="app.cpp" />
+    <ClCompile Include="bonus_collisions.cpp" />
+    <ClCompile Include="Bonus_init.cpp" />
+    <ClCompile Include="Bonus_Update.cpp" />
     <ClCompile Include="enemy_collisions.cpp" />
     <ClCompile Include="enemy_init.cpp" />
     <ClCompile Include="enemy_update.cpp" />
@@ -38,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="app.h" />
+    <ClInclude Include="Bonus.h" />
     <ClInclude Include="enemy.h" />
     <ClInclude Include="entity.h" />
     <ClInclude Include="Level.h" />
